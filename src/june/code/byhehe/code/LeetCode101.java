@@ -1,4 +1,5 @@
-package june.code.byhehe.code; /**
+package june.code.byhehe.code;
+/**
  * 给定一个二叉树，检查它是否是镜像对称的。
  *
  *  
@@ -28,6 +29,7 @@ package june.code.byhehe.code; /**
 import june.code.byhehe.utils.TreeNode;
 
 /**
+ * 记录在GitHub上 。
  * 思路：
  * 判断一棵树是不是镜像 先看它的左右节点是否相等
  * 重新整理：
