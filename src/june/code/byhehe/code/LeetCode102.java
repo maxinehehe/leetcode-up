@@ -32,6 +32,17 @@ import java.util.Queue;
 
 /**
  * 层序遍历 多会用到一个队列，这里由于要分层 所以可以考虑 队列里面放一个 列表
+ *
+ * 一种更加巧妙的做法是：
+ * 我们可以用一种巧妙的方法修改 BFS：
+ *
+ * 首先根元素入队
+ * 当队列不为空的时候
+ * 求当前队列的长度 s_i
+ * 依次从队列中取 s_i 个元素进行拓展，然后进入下一次迭代
+ *
+ * 作者：LeetCode-Solution
+ * 链接：https://leetcode-cn.com/problems/binary-tree-level-order-traversal/solution/er-cha-shu-de-ceng-xu-bian-li-by-leetcode-solution/
  */
 public class LeetCode102 {
     public static void main(String[] args) {
