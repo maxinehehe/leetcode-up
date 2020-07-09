@@ -3,6 +3,7 @@ package june.code.byhehe.code;
 
 import june.code.byhehe.utils.TreeNode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
@@ -51,8 +52,35 @@ public class LeetCode102 {
         TreeNode n2 = new TreeNode(3);
         r1.left = n1;
         r1.right = n2;
-        System.out.println(levelOrder(r1));
+        System.out.println(levelOrder2(r1));
     }
+
+    public static List<List<Integer>> levelOrder2(TreeNode root){
+        // 层序遍历
+        List<List<Integer>> resList = new LinkedList<>();
+        if(root == null)
+            return resList;
+
+        Queue<TreeNode> queue = new LinkedList<>();
+
+        queue.add(root);
+        while (!queue.isEmpty()){
+            int size = queue.size();
+            List<Integer> list = new LinkedList<>();
+            for(int i = 0; i < size; i++){
+                TreeNode tmp = queue.poll();
+                list.add(tmp.val);
+                if(tmp.left!=null)
+                    queue.add(tmp.left);
+                if(tmp.right != null)
+                    queue.add(tmp.right);
+            }
+            resList.add(list);
+
+        }
+        return resList;
+    }
+
     public static List<List<Integer>> levelOrder(TreeNode root) {
 
         // 层序遍历 多用队列
@@ -61,7 +89,6 @@ public class LeetCode102 {
             return resList;
 
         Queue<List<TreeNode>> queue = new LinkedList<>();
-
 
 //        new LinkedList<>().add(root.val);
 //        queue.add(new LinkedList<>().add);
