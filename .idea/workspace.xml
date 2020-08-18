@@ -1,37 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8944eeaa-7d8f-4f2c-be7f-5c458d640ed1" name="Default Changelist" comment="update 2020-08-07 16:28">
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/DP/ChangeMoney.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/DP/EditDistance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/DP/ZeroOneBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/byClass/tree/buildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/byClass/tree/getDepthOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/byClass/tree/judgeBalanTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/byClass/tree/judgeDistOfTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/MinHuiWenFenGe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/findMaxHuiWenSeq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/isBianXingCi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/isHuiWen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/isXuanZhuanCi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/BFSfisrt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/Dijkstra.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/DijkstraTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ37.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ50Oth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/QiAnXin/Main01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/gensheixue/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/inputAndOutput/ATwoPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/inputAndOutput/BTwoPlusByT.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/inputAndOutput/CTwoPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/netEase/Main1.java" afterDir="false" />
+    <list default="true" id="8944eeaa-7d8f-4f2c-be7f-5c458d640ed1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/28-字符串 判断字符串是否是数字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/30-删除链表中重复的节点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/HashMap源码.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/Topological Data Analysis for Time Series Changing Point Detection_2020.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode 394 字符串解码【使用双栈】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode 53 最大子序列和之从二维DP优化到一维DP再到空间时间双优化.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode 560 和为k的子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode 581 最短无序连续子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode148 排序链表.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode239 滑动窗口的最大值【滑动窗口+优先级队列】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode75颜色分类【荷兰国旗问题】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode76最小覆盖子.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/LeetCode76最小覆盖子【滑动窗口】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 1143 最长公共子序列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 23合并k个排序链表.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 300最长上升子序列—DP.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 416 DP值 0-1背包问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 63 不同路径 II.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 79 单词搜索.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 84 柱状图中最大的矩形.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 84 柱状图中最大的矩形.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode 84 柱状图中最大的矩形2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode287寻找重复数.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode42.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode42接雨水.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode42接雨水双指针.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode55 跳跃游戏【DP】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode56 合并区间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode56 合并区间【贪心】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/leetcode78回溯算法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/双指针/LeetCode 141 环形链表【双指针】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/双指针/LeetCode 142 环形链表 II【双指针】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/贪心算法/LeetCode 406 根据身高重建队列.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/贪心算法/LeetCode 55 跳跃游戏【贪心DP】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/leetcode TOP100/贪心算法/LeetCode 621 任务调度器.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/关于集合与数组的用法.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/动态规划之编辑距离问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/动态规划凑零钱.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/动态规划的套路之leetcode494目标和.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/回溯法之矩阵中的路径.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/复习专用/leetcode560和为k的子数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/复习专用/leetcode581最短无序数组.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/火车站点调度.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/火车站点调度2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/火车购票站点区间问题【贪心-区间调度】.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/草稿本.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/贪心算法之区间调度问题.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/Review/剑指offer LeetCode/非递归前序中序后序遍历.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ106.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ75.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ85.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ91.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/june/code/byhehe/utils/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/june/code/byhehe/book/DP/MaxSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/DP/MaxSeq.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/june/code/byhehe/utils/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/june/code/byhehe/utils/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/findMaxHuiWenSeq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/june/code/byhehe/book/stringProblem/findMaxHuiWenSeq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/june/code/byhehe/forOffer/HW/HJ50.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,46 +81,24 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1d8Npkkjk9KCdPHkjnQeVWhUJg5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.Dijkstra">
-    <configuration name="Dijkstra" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.Dijkstra" />
-      <module name="leetcode-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="june.code.byhehe.forOffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DijkstraTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.DijkstraTest" />
-      <module name="leetcode-up" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="june.code.byhehe.forOffer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HJ50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.HW.HJ50" />
+  <component name="RunManager" selected="Application.HJ75">
+    <configuration name="HJ106" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.HW.HJ106" />
       <module name="leetcode-up" />
       <extension name="coverage">
         <pattern>
@@ -106,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.QiAnXin.Main01" />
+    <configuration name="HJ75" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.HW.HJ75" />
       <module name="leetcode-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june.code.byhehe.forOffer.QiAnXin.*" />
+          <option name="PATTERN" value="june.code.byhehe.forOffer.HW.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,12 +123,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.utils.Test" />
+    <configuration name="HJ85" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.HW.HJ85" />
       <module name="leetcode-up" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="june.code.byhehe.utils.*" />
+          <option name="PATTERN" value="june.code.byhehe.forOffer.HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HJ91" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.forOffer.HW.HJ91" />
+      <module name="leetcode-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.code.byhehe.forOffer.HW.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findMaxHuiWenSeq" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="june.code.byhehe.book.stringProblem.findMaxHuiWenSeq" />
+      <module name="leetcode-up" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="june.code.byhehe.book.stringProblem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Dijkstra" />
-        <item itemvalue="Application.DijkstraTest" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main01" />
-        <item itemvalue="Application.HJ50" />
+        <item itemvalue="Application.HJ75" />
+        <item itemvalue="Application.HJ106" />
+        <item itemvalue="Application.HJ91" />
+        <item itemvalue="Application.HJ85" />
+        <item itemvalue="Application.findMaxHuiWenSeq" />
       </list>
     </recent_temporary>
   </component>
@@ -214,10 +244,18 @@
       <option name="project" value="LOCAL" />
       <updated>1596788913171</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update 2020-08-17 16:05">
+      <created>1597651544954</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1597651544954</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="这次知识规整了一下代码" />
     <MESSAGE value="动态规划类型题目&#10;&#10;公式：G(n) = 累加 [i=(1，n)] G(i-1)*G(n-i)" />
     <MESSAGE value="提交98 和 102 ，关于树的问题" />
@@ -226,66 +264,67 @@
     <MESSAGE value="new review" />
     <MESSAGE value="update" />
     <MESSAGE value="update 2020-08-07 16:28" />
-    <option name="LAST_COMMIT_MESSAGE" value="update 2020-08-07 16:28" />
+    <MESSAGE value="update 2020-08-17 16:05" />
+    <option name="LAST_COMMIT_MESSAGE" value="update 2020-08-17 16:05" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="315" y="115" key="CommitChangelistDialog2" timestamp="1596789165669">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="315" y="115" key="CommitChangelistDialog2" timestamp="1597651544598">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1020@0.23.1792.1020" timestamp="1591803502973" />
     <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1024@0.23.1792.1024" timestamp="1591890331833" />
     <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1026@0.23.1792.1026" timestamp="1596789165669" />
-    <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1592267419072" />
+    <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1028@0.23.1792.1028" timestamp="1597651544598" />
     <state x="315" y="115" key="CommitChangelistDialog2/0.23.1792.1030@0.23.1792.1030" timestamp="1594823924651" />
     <state x="315" y="116" key="CommitChangelistDialog2/0.23.1792.1041@0.23.1792.1041" timestamp="1595261694713" />
-    <state width="1203" height="231" key="GridCell.Tab.0.bottom" timestamp="1597581785362">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1203" height="231" key="GridCell.Tab.0.bottom" timestamp="1597718106774">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state width="1199" height="328" key="GridCell.Tab.0.bottom/0.23.1792.1022@0.23.1792.1022" timestamp="1596872666933" />
     <state width="1199" height="195" key="GridCell.Tab.0.bottom/0.23.1792.1024@0.23.1792.1024" timestamp="1596991568676" />
     <state width="1199" height="195" key="GridCell.Tab.0.bottom/0.23.1792.1026@0.23.1792.1026" timestamp="1597034008254" />
-    <state width="1203" height="136" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597570769649" />
-    <state width="1203" height="274" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1597560649710" />
-    <state width="1203" height="231" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1597581785362" />
+    <state width="1203" height="231" key="GridCell.Tab.0.bottom/0.23.1792.1028@0.23.1792.1028" timestamp="1597718106774" />
+    <state width="1203" height="231" key="GridCell.Tab.0.bottom/0.23.1792.1030@0.23.1792.1030" timestamp="1597714128163" />
+    <state width="1203" height="231" key="GridCell.Tab.0.bottom/0.23.1792.1031@0.23.1792.1031" timestamp="1597713650966" />
     <state width="1348" height="354" key="GridCell.Tab.0.bottom/0.23.1792.1033@0.23.1792.1033" timestamp="1597205583777" />
     <state width="1348" height="354" key="GridCell.Tab.0.bottom/0.23.1792.1034@0.23.1792.1034" timestamp="1597214360061" />
     <state width="1740" height="270" key="GridCell.Tab.0.bottom/0.23.1792.1036@0.23.1792.1036" timestamp="1592359546322" />
     <state width="1740" height="235" key="GridCell.Tab.0.bottom/0.23.1792.1041@0.23.1792.1041" timestamp="1595261293348" />
-    <state width="1203" height="231" key="GridCell.Tab.0.center" timestamp="1597581785361">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1203" height="231" key="GridCell.Tab.0.center" timestamp="1597718106774">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state width="1199" height="328" key="GridCell.Tab.0.center/0.23.1792.1022@0.23.1792.1022" timestamp="1596872666931" />
     <state width="1199" height="195" key="GridCell.Tab.0.center/0.23.1792.1024@0.23.1792.1024" timestamp="1596991568675" />
     <state width="1199" height="195" key="GridCell.Tab.0.center/0.23.1792.1026@0.23.1792.1026" timestamp="1597034008253" />
-    <state width="1203" height="136" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597570769648" />
-    <state width="1203" height="274" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1597560649710" />
-    <state width="1203" height="231" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1597581785361" />
+    <state width="1203" height="231" key="GridCell.Tab.0.center/0.23.1792.1028@0.23.1792.1028" timestamp="1597718106774" />
+    <state width="1203" height="231" key="GridCell.Tab.0.center/0.23.1792.1030@0.23.1792.1030" timestamp="1597714128162" />
+    <state width="1203" height="231" key="GridCell.Tab.0.center/0.23.1792.1031@0.23.1792.1031" timestamp="1597713650966" />
     <state width="1348" height="354" key="GridCell.Tab.0.center/0.23.1792.1033@0.23.1792.1033" timestamp="1597205583776" />
     <state width="1348" height="354" key="GridCell.Tab.0.center/0.23.1792.1034@0.23.1792.1034" timestamp="1597214360060" />
     <state width="1740" height="270" key="GridCell.Tab.0.center/0.23.1792.1036@0.23.1792.1036" timestamp="1592359546322" />
     <state width="1740" height="235" key="GridCell.Tab.0.center/0.23.1792.1041@0.23.1792.1041" timestamp="1595261293347" />
-    <state width="1203" height="231" key="GridCell.Tab.0.left" timestamp="1597581785361">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1203" height="231" key="GridCell.Tab.0.left" timestamp="1597718106774">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state width="1199" height="328" key="GridCell.Tab.0.left/0.23.1792.1022@0.23.1792.1022" timestamp="1596872666930" />
     <state width="1199" height="195" key="GridCell.Tab.0.left/0.23.1792.1024@0.23.1792.1024" timestamp="1596991568674" />
     <state width="1199" height="195" key="GridCell.Tab.0.left/0.23.1792.1026@0.23.1792.1026" timestamp="1597034008253" />
-    <state width="1203" height="136" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597570769648" />
-    <state width="1203" height="274" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1597560649709" />
-    <state width="1203" height="231" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1597581785361" />
+    <state width="1203" height="231" key="GridCell.Tab.0.left/0.23.1792.1028@0.23.1792.1028" timestamp="1597718106774" />
+    <state width="1203" height="231" key="GridCell.Tab.0.left/0.23.1792.1030@0.23.1792.1030" timestamp="1597714128159" />
+    <state width="1203" height="231" key="GridCell.Tab.0.left/0.23.1792.1031@0.23.1792.1031" timestamp="1597713650965" />
     <state width="1348" height="354" key="GridCell.Tab.0.left/0.23.1792.1033@0.23.1792.1033" timestamp="1597205583775" />
     <state width="1348" height="354" key="GridCell.Tab.0.left/0.23.1792.1034@0.23.1792.1034" timestamp="1597214360060" />
     <state width="1740" height="270" key="GridCell.Tab.0.left/0.23.1792.1036@0.23.1792.1036" timestamp="1592359546322" />
     <state width="1740" height="235" key="GridCell.Tab.0.left/0.23.1792.1041@0.23.1792.1041" timestamp="1595261293347" />
-    <state width="1203" height="231" key="GridCell.Tab.0.right" timestamp="1597581785362">
-      <screen x="0" y="23" width="1792" height="1031" />
+    <state width="1203" height="231" key="GridCell.Tab.0.right" timestamp="1597718106774">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state width="1199" height="328" key="GridCell.Tab.0.right/0.23.1792.1022@0.23.1792.1022" timestamp="1596872666932" />
     <state width="1199" height="195" key="GridCell.Tab.0.right/0.23.1792.1024@0.23.1792.1024" timestamp="1596991568675" />
     <state width="1199" height="195" key="GridCell.Tab.0.right/0.23.1792.1026@0.23.1792.1026" timestamp="1597034008254" />
-    <state width="1203" height="136" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597570769648" />
-    <state width="1203" height="274" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1597560649710" />
-    <state width="1203" height="231" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1597581785362" />
+    <state width="1203" height="231" key="GridCell.Tab.0.right/0.23.1792.1028@0.23.1792.1028" timestamp="1597718106774" />
+    <state width="1203" height="231" key="GridCell.Tab.0.right/0.23.1792.1030@0.23.1792.1030" timestamp="1597714128163" />
+    <state width="1203" height="231" key="GridCell.Tab.0.right/0.23.1792.1031@0.23.1792.1031" timestamp="1597713650966" />
     <state width="1348" height="354" key="GridCell.Tab.0.right/0.23.1792.1033@0.23.1792.1033" timestamp="1597205583776" />
     <state width="1348" height="354" key="GridCell.Tab.0.right/0.23.1792.1034@0.23.1792.1034" timestamp="1597214360060" />
     <state width="1740" height="270" key="GridCell.Tab.0.right/0.23.1792.1036@0.23.1792.1036" timestamp="1592359546322" />
@@ -318,13 +357,13 @@
       <screen x="0" y="23" width="1792" height="1020" />
     </state>
     <state x="296" y="84" key="SettingsEditor/0.23.1792.1020@0.23.1792.1020" timestamp="1594803202750" />
-    <state x="396" y="211" key="Vcs.Push.Dialog.v2" timestamp="1596788921040">
-      <screen x="0" y="23" width="1792" height="1026" />
+    <state x="396" y="212" key="Vcs.Push.Dialog.v2" timestamp="1597651554787">
+      <screen x="0" y="23" width="1792" height="1028" />
     </state>
     <state x="396" y="210" key="Vcs.Push.Dialog.v2/0.23.1792.1020@0.23.1792.1020" timestamp="1591803535269" />
     <state x="396" y="211" key="Vcs.Push.Dialog.v2/0.23.1792.1024@0.23.1792.1024" timestamp="1591890345938" />
     <state x="396" y="211" key="Vcs.Push.Dialog.v2/0.23.1792.1026@0.23.1792.1026" timestamp="1596788921040" />
-    <state x="396" y="212" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1592267430528" />
+    <state x="396" y="212" key="Vcs.Push.Dialog.v2/0.23.1792.1028@0.23.1792.1028" timestamp="1597651554787" />
     <state x="396" y="212" key="Vcs.Push.Dialog.v2/0.23.1792.1030@0.23.1792.1030" timestamp="1594823935594" />
     <state x="396" y="214" key="Vcs.Push.Dialog.v2/0.23.1792.1041@0.23.1792.1041" timestamp="1595261699665" />
     <state x="819" y="305" key="com.intellij.ide.util.TipDialog" timestamp="1597230057539">

@@ -5,7 +5,7 @@ package june.code.byhehe.book.stringProblem;
  */
 public class findMaxHuiWenSeq {
     public static void main(String[] args) {
-        String s = "ac";
+        String s = "aca";
         int len = s.length();
         String res="";
         for (int i = 0; i < s.length(); i++) {
