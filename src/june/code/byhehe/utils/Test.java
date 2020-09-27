@@ -1,107 +1,38 @@
 package june.code.byhehe.utils;
 
 
-
-
-import com.sun.deploy.util.StringUtils;
-
-import java.util.*;
-
 public class Test {
     public static void main(String[] args) {
-        Integer i01 = -128;
-        int i02 = -128;
-        Integer i03 = Integer.valueOf(-128);
-        Integer i04 = new Integer(-128);
-        System.out.println(i04 == i03);
-        System.out.println(i01 == i02);
-        System.out.println(i04 == i02);
-
-//        System.out.println(2|4);
-//        LinkedHashMap s;
-//        TreeMap l;
-//        "".substring()
-//        @param      beginIndex   the beginning index, inclusive
-//        seven();
-//        eight();
-//        nine();
-////        ArrayList<Integer> arraysList = new ArrayList<>();
-//        Scanner sc = new Scanner(System.in);
-//        while (sc.hasNext()){
-//            String str = sc.nextLine();
-//            String[] strArr = str.trim().split(" ");
-//            int sum = 0;
-//            for (int i = 0; i <strArr.length; i++) {
-//                sum += Integer.valueOf(strArr[i]);
-//            }
-//            System.out.println(sum);
-//        }
+        MySloutionForAWei mySloutionForAWei = new MySloutionForAWei();
+        int res = mySloutionForAWei.getRes("abcbxbstyxz");//"abcbxbstyxz");
+        System.out.println(res);
     }
-    public static void seven(){
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
+}
 
-        String[] strArr = new String[n];
-
-        for (int i = 0; i < n; i++) {
-            strArr[i] = sc.next();
+class MySloutionForAWei{
+    public int getRes(String s){
+        char[] chars = s.toCharArray();
+        int[] dp = new int[chars.length+1];
+        // 初始化
+        for (int i = 0; i <= chars.length; i++) {
+            dp[i] = i+1;
         }
 
-
-        Arrays.sort(strArr, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.compareTo(o2);
-            }
-        });
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < n; i++) {
-            sb.append(i==n-1?strArr[i]:strArr[i]+" ");
-        }
-        System.out.println(sb.toString());
-    }
-
-    public static void eight(){
-        Scanner sc = new Scanner(System.in);
-        while(sc.hasNext()){
-            String[] sa = sc.nextLine().split(" ");
-            Arrays.sort(sa, new Comparator<String>() {
-                @Override
-                public int compare(String o1, String o2) {
-                    return o1.compareTo(o2);
+        for (int i = 1; i < chars.length; i++) {
+            for (int j = 1; j < i; j++) {
+                if(chars[i] == chars[j]){
+                    dp[i] = dp[j-1]+1;
+//                            Math.min(
+//                            dp[j-1]+1,
+//                            dp[i-1]+1
+//                    );
+                    break;
+                }else {
+                    dp[i] = Math.min(dp[i-1]+1,dp[i]);
                 }
-            });
-
-//            String str = StringUtils.join(Arrays.asList(sa), " ");
-            StringBuilder sb = new StringBuilder();
-            for(String str:sa){
-                sb.append(str+" ");
             }
-            System.out.println(sb.toString().trim());
         }
 
+        return dp[chars.length-1];
     }
-    public static void nine() {
-        Scanner sc = new Scanner(System.in);
-        while (sc.hasNext()) {
-            String[] sa = sc.nextLine().trim().split(",");
-            Arrays.sort(sa, new Comparator<String>() {
-                @Override
-                public int compare(String o1, String o2) {
-                    return o1.compareTo(o2);
-                }
-            });
-
-//            String str = StringUtils.join(Arrays.asList(sa), " ");
-            StringBuilder sb = new StringBuilder();
-            for (String str : sa) {
-                sb.append(str + ",");
-            }
-            sb = sb.replace(sb.length()-1, sb.length(),"");
-            System.out.println(sb.toString().trim());
-        }
-
-    }
-
-
 }
